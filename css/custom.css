@@ -28,19 +28,18 @@
 	margin: 5em auto;
 }
 
-img {
-	width: 13em;
-	height: 8em;
-	display: block;
-	margin: auto;
-}
-
 h1 {
 	font-size: 5em;
+	text-align: center;
 }
 
 h2 {
 	font-size: 3em;
+	text-align: center;
+}
+
+h3 {
+	text-align: center;
 }
 
 .filler {
@@ -59,4 +58,18 @@ h2 {
 
 .description {
 	padding:1em 6em;
+}
+
+.gif img {
+	width: 13em;
+	height: 8em;
+	display: block;
+	margin: auto;
+}
+
+.col-md-6 img {
+	width: 20em;
+	height: 13em;
+	display: block;
+	margin: auto;
 }
