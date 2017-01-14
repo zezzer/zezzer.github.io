@@ -23,18 +23,16 @@
 	color: #EFEFEF;
 }
 
-#portfolio {
-	margin:4em auto;
-	width:50em;
-}
-
 #portfolio-entries {
-	margin:4em;
+	margin: 4em;
+	margin: 5em auto;
 }
 
 img {
-	width:13em;
-	height:8em;
+	width: 13em;
+	height: 8em;
+	display: block;
+	margin: auto;
 }
 
 h1 {
@@ -46,9 +44,19 @@ h2 {
 }
 
 .filler {
-	height:20em;
+	height: 20em;
+}
+
+.section {
+	padding: 4em auto;
+	min-width: 20em;
+	margin: 4em auto;
 }
 
 .portfolio-entry {
-	margin:2em;	
+	margin: 2em;	
+}
+
+.description {
+	padding:1em 6em;
 }
