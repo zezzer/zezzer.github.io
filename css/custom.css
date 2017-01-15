@@ -25,21 +25,33 @@
 
 #portfolio-entries {
 	margin: 4em;
-	margin: 5em auto;
+	margin: 0 auto 5em auto;
 }
 
 h1 {
 	font-size: 5em;
 	text-align: center;
+	font-family: 'Dosis', sans-serif;
 }
 
 h2 {
 	font-size: 3em;
 	text-align: center;
+	font-family: 'Raleway', sans-serif;
 }
 
 h3 {
 	text-align: center;
+	font-family: 'Raleway', sans-serif;
+}
+
+h4 {
+	font-family: 'Raleway', sans-serif;
+}
+
+img {
+	display: block;
+	margin: auto;
 }
 
 .filler {
@@ -63,13 +75,19 @@ h3 {
 .gif img {
 	width: 13em;
 	height: 8em;
-	display: block;
-	margin: auto;
 }
 
 .col-md-6 img {
 	width: 20em;
 	height: 13em;
-	display: block;
-	margin: auto;
+}
+
+#self-pic img {
+	height: 25em;
+	width: 18em;
+	margin-top: 4em;
+}
+
+li > h3 {
+	text-align: left;
 }
