@@ -2,11 +2,11 @@
 	position: fixed;
 	left: 1em;
 	top: 1em;
-	box-shadow: inset 0 0 0 1000px rgba(0,0,0,.2);
+	box-shadow: inset 0 0 0 1000px rgba(0,0,0,.4);
 }
 
 #header ul {
-	float: right;ß
+	float: right;
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
@@ -18,8 +18,10 @@
 }
 
 #page-top {
-	background-image: url("../img/laptop.jpg");
+	background-image: url("../img/footer_lodyas.png");
+	background-color: black;
 	background-size: 100%;
+	height: 48em;
 	color: #EFEFEF;
 }
 
@@ -28,9 +30,14 @@
 	margin: 0 auto 5em auto;
 }
 
+body {
+	height: 100%;
+}
+
 h1 {
 	font-size: 5em;
 	text-align: center;
+	margin: auto auto;
 	font-family: 'Dosis', sans-serif;
 }
 
@@ -52,10 +59,34 @@ h4 {
 img {
 	display: block;
 	margin: auto;
+	position: relative;
+	z-index: -1;
+}
+
+iframe {
+	z-index: -1;
+	border: none;
+}
+
+.menu-item {
+	color: #EFEFEF;
+}
+
+.menu-item:hover {
+	text-decoration: none;
+	color: #FFFCCC;
+}
+
+.portfolio-item {
+	color: #000000;
+}
+
+.portfolio-item:hover {
+	text-decoration: none;
 }
 
 .filler {
-	height: 20em;
+	height: 45%;
 }
 
 .section {
