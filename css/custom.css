@@ -35,7 +35,7 @@ body {
 }
 
 h1 {
-	font-size: 5em;
+	font-size: 4em;
 	text-align: center;
 	margin: auto auto;
 	font-family: 'Raleway', sans-serif;
@@ -68,6 +68,10 @@ iframe {
 	border: none;
 }
 
+.filler {
+	height: 60%;
+}
+
 .menu-item {
 	color: #EFEFEF;
 }
@@ -83,10 +87,6 @@ iframe {
 
 .portfolio-item:hover {
 	text-decoration: none;
-}
-
-.filler {
-	height: 55%;
 }
 
 .section {
@@ -121,4 +121,18 @@ iframe {
 
 li > h3 {
 	text-align: left;
+}
+
+@media screen and (max-width: 640px) {
+	.filler {
+		height: 60%;
+	}
+
+	.description {
+		padding: 1em 3em;
+	}
+
+	h1 {
+		font-size: 3em;
+	}
 }
